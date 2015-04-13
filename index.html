@@ -8,7 +8,7 @@
         <title>TDG Demo App</title>
 
         <script id="sap-ui-bootstrap"
-			src="/path/to/resources/sap-ui-core.js"
+			src="https://openui5beta.hana.ondemand.com/resources/sap-ui-core.js"
 			data-sap-ui-libs="sap.m"
 			data-sap-ui-theme="sap_bluecrystal"
 			data-sap-ui-xx-bindingSyntax="complex"
@@ -21,8 +21,8 @@
             sap.ui.getCore().attachInit(function() {
                 new sap.m.Shell({
                     app: new sap.ui.core.ComponentContainer({
-                        height : "100%",
-                        name : "sap.ui.demo.tdg"
+                        height: "100%",
+                        name: "sap.ui.demo.tdg"
                     })
                 }).placeAt("content");
             });
