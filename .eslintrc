@@ -6,9 +6,6 @@
 		"sap": true,
 		"jQuery": true
 	},
-	"plugins": [
-		"openui5"
-	],
 	"rules": {
 		"block-scoped-var": 1,
 		"brace-style": [2, "1tbs", { "allowSingleLine": true }],
@@ -22,9 +19,8 @@
 		"no-unused-vars": [2, {"vars":"all", "args":"none"}],
 		"radix": 2,
 		"space-after-keywords": [2, "always"],
-		"space-unary-ops": 2,
+		"space-unary-word-ops": 2,
 		"wrap-iife": [2, "any"],
-		"openui5/line-endings": 2,
 
 		"camelcase": 1,
 		"consistent-return": 1,
@@ -49,11 +45,6 @@
 		"eqeqeq": 0,
 		"no-trailing-spaces": 0,
 		"no-underscore-dangle": 0,
-		"quotes": 0,
-		"key-spacing": 0,
-		"comma-spacing": 0,
-		"no-multi-spaces": 0,
-		"no-shadow": 0,
-		"no-irregular-whitespace": 0
+		"quotes": 0
 	}
 }
